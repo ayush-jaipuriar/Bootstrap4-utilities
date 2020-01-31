@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<h1 lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Bootstrap 4 Colors</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <style>
+            .small,
+            small {
+                font-size: 50%;
+                font-weight: 400;
+            }
+        </style>
+        <div class="container">
+            <p class="display-1 text-center">Part 1</p>
+            <h3><strong>Billing Address</strong></h3>
+            <hr>
+            <form action="">
+                <div class="form-group">
+                    <label for="fullName"><small class="text-muted">Full Name</small></label>
+                    <input type="text" name="fullName" id="fullName" class="form-control" placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                    <label for="username"><small class="text-muted">Username</small></label>
+                    <div class="input-group">
+                        <div class="input0-group-prepend">
+                            <span class="input-group-text">@</span>
+                        </div>
+                        <input type="text" name="username" id="username" class="form-control" placeholder="Username">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email"><small class="text-muted">Email(Optional)</small></label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="you@example.com">
+                </div>
+
+
+
+                <div class="form-group">
+                    <label for="address1"><small class="text-muted">Address</small></label>
+                    <input type="text" name="address1" id="address1" class="form-control"
+                        placeholder="Indrapuri Colony">
+
+                </div>
+
+                <div class="form-group">
+                    <label for="address2"><small class="text-muted">Address 2(Optional)</small></label>
+                    <input type="text" name="address2" id="address2" class="form-control" placeholder="Smriti Bhawan">
+                </div>
+
+                <div class="form-group">
+                    <label for="specialNotes"><small class="text-muted">Special Notes</small></label>
+                    <textarea name="specialNotes" id="specialNotes" cols="30" rows="10" class="form-control"></textarea>
+                    <small class="text-muted">Include any special requests you have for us</small>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Check1">
+                        <label class="form-check-label" for="Check1">
+                            <small class="text-muted">Shipping Address is the same as billing</small>
+                        </label>
+                    </div>
+
+
+                </div>
+
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Check2">
+                        <label class="form-check-label" for="Check2">
+                            <small class="text-muted">Save my info for the next time</small>
+                        </label>
+                    </div>
+
+                </div>
+                <hr>
+                <h3><strong>Shipping Options</strong></h3>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radio1" id="sameDay">
+                        <label for="sameDay"><small class="text-muted">Same Day</small></label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radio1" id="nextDay">
+                        <label for="nextDay"><small class="text-muted">Next Day</small></label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radio1" id="late">
+                        <label for="late"><small class="text-muted">3-4 Days</small></label>
+                    </div>
+                </div>
+                <button class="btn btn-info btn-block mb-5">Continue to Checkout</button>
+
+            </form>
+
+        </div>
+
+        <div class="display-2 text-center">Part 2</div>
+        <hr>
+        <div class="container border rounded p-5" style="max-width: 400px">
+            <h3 class="text-center mb-4">Sign In</h3>
+            <form action="">
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email2" id="email2" placeholder="email">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="password" id="email2" placeholder="password">
+                </div>
+                <div class="form-check form-group">
+                    <input class="form-check-input" type="checkbox" value="" id="Remember">
+                    <label class="form-check-label" for="Remember">
+                        <small class="text-muted">Remember me</small>
+                    </label>
+
+                </div>
+                <button class="btn-block btn-lg btn-info">Sign In</button>
+                <p class="text-center"><small class="text-muted">Not Registered? <a href="#">Register</a></small></p>
+
+
+            </form>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    </body>
+
+    </html>
